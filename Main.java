@@ -4,12 +4,12 @@ class Main {
    
    System.out.println("Welcome to Kore's Kandy Emporium!"); 
    
-   Scanner order = new Scanner(System.in); 
+   Scanner number = new Scanner(System.in); 
    
    System.out.println("What is your order number?");
-   String number = order.next();
+   String order = number.next();
     
-   System.out.println(number);
+   System.out.println(order);
 
 
 
