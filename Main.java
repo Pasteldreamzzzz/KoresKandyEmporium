@@ -7,7 +7,7 @@ class Main {
    Scanner number = new Scanner(System.in); 
    
    System.out.println("What is your order number?");
-   String order = number.next();
+   int order = number.nextInt();
     
    System.out.println(order);
 
